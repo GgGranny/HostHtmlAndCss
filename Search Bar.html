@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search Bar</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        input{
+            margin: 10px;
+        }
+        .Search-Bar1{
+            padding-left: 12px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 7px;
+            border-width: 1.3px;
+            border-style: solid;
+            border-color: rgb(200, 197, 197);
+            align-items: top;
+            
+        }
+        .google-search{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 150px;
+            padding-left: 10px;
+            margin-right: 50px;
+            border-radius: 15px;
+            font-size: 10px;
+            font-weight: 600 ;
+            border-style: none;
+            align-items: top;
+            box-shadow: -5px -5px 8px rgb(200, 197, 197), 5px 5px 8px rgb(200, 197, 197);
+        }
+        #email{
+            color: grey;
+            font-size: 13px;
+            align-items: top;
+        }
+        .email-search{
+            transform: translateY(30px) translateX(-47px);
+            border:1px solid rgb(200, 197, 197);
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            padding-right: 50px;
+            border-radius: 5px;
+            align-items: top;
+            
+        }
+        .agree-button{
+            transform: translate(-235px, 80px);
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 15px;
+            border-style: none;
+            border-width: 0px;
+            border-color: rgb(41, 138, 241);
+            background-color: rgb(41, 138, 241);
+            color: white;
+            cursor: pointer;
+            transition: opacity .15s;
+
+        }
+        .agree-button:hover{
+            opacity: .8;
+        }
+        .profile-image{
+            width: 50px;
+            border-radius: 50%;
+            transform: translate(-100px, 40px);
+            object-fit: contain;
+            object-position: bottom;
+
+        }
+        .message{
+            transform: translate(930px, -24px);
+            color: grey;
+        }
+        .tweet-button{
+            transform: translate(1150px, -64px);
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-weight: 600;
+            background-color:rgb(41, 138, 241);
+            border-style: none;
+            color: white;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+        }
+        .tweet-button:hover{
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <input class="Search-Bar1" type="text" placeholder="Search"> 
+    <input class="google-search" type="text" placeholder="Search Google or type a Url"> 
+    <label for="email" id="email">
+        Email
+    </label>
+    <input class="email-search" type="email" placeholder="Spongebob@gmail.com">
+    <button class="agree-button">Agree</button>
+   
+    <img class="profile-image" src="images/pexels-cong-h-1404819.jpg">
+    <p class="message">What's happening ?</p>
+    <button class="tweet-button">Tweet</button>
+   
+</body>
+</html>

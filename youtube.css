@@ -1,0 +1,21 @@
+.thumb-nail{
+    width: 300px;
+    /* height: 300px; */
+    /*to fit the object in above dimensions*/
+
+    /* object-fit: cover; contain  */
+    /*to adjust the image for which part
+     you want to view in the above dimension*/
+     /* object-position: center; /*takes other values left, right, top , bottom*/ 
+
+
+        /*object-fit: contain;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black; */
+
+
+}
+.search-Bar{
+    font-size: 20px;
+}
