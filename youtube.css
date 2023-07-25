@@ -1,3 +1,11 @@
+body{
+    font-family: Roboto,Arial;
+    color: grey;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .thumb-nail{
     width: 300px;
     /* height: 300px; */
@@ -17,5 +25,68 @@
 
 }
 .search-Bar{
+    display: block;
     font-size: 20px;
+}
+
+
+
+/* DISPLAY PROPERTY */
+/* block
+inline-block
+inline elements */
+.video-title{
+    /* width: 300px; */
+    color: black;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+/* in css we use comma to target multiple 
+selector with same property */
+/* .video-author,
+.video-rating{
+    display: inline-block;
+} */
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    
+}
+.channel-profile{
+    display: inline-block;
+    width:  50px;
+    vertical-align: top;
+}
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+.profile-picture{
+    /* width: 50px;*/
+    width: 40px;
+    border-radius: 50px;
+    
+}
+.thumbnail-row{
+    margin-bottom: 5px;
+}
+.video-rating,
+.video-author{
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.profile-picture2{
+    width: 40px;
+    border-radius: 50px;
+}
+.video-profile{
+    vertical-align: top;
+    display: inline-block;
 }
